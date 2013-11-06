@@ -84,6 +84,8 @@ class Module implements
             'invokables' => array(
                 'isGranted' => 'ZfcRbac\Controller\Plugin\IsGranted',
                 'hasRole' => 'ZfcRbac\Controller\Plugin\HasRole',
+                'getIdentity' => 'ZfcRbac\Controller\Plugin\GetIdentity',
+                'accessDenied' => 'ZfcRbac\Controller\Plugin\AccessDenied',
             )
         );
     }
